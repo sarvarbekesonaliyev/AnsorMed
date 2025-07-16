@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.red-button {
+    height: 47px;
+    background-color: #DE2E54;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+.red-button:hover {
+    background-color: white;
+    color: #DE2E54;
+    transition: 0.5s ease;
+    border: 2px solid #DE2E54;
+    display: inline-block;
+    padding: 12px 24px;
+    line-height: 150%;
+    height: 47px;
+}
+
+
+/* HEADER part */
+.header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger-menu {
+    display: none;
+    margin-left: 24px;
+}
+
+.header-link {
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 2px;
+    list-style: none;
+    gap: 32px;
+    width: 487px;
+}
+.header-link a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.header-link a:hover {
+    color: #DE2E54;
+}
+
+/* MAIN part */
+
+/* HERO part */
+.hero-section {
+    display: flex;
+    height: 533px;
+    background-color: #0EB4C1;
+    position: relative;
+}
+
+.hero-container {
+    display: flex;
+    margin-top: 90px;
+    position: relative;
+}
+
+.hero-content {
+    width: 600px;
+    height: 293px;
+}
+
+.hero-button {
+    display: inline-block;
+    width: 225px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 260px;
+}
+
+.hero-title {
+    color: white;
+    font-family: "Open sans";
+    font-weight: bold;
+}
+
+.hero-text {
+    color: white;
+    font-size: 18px;
+    font-family: "Open sans";
+    font-weight: "regular";
+    width: 440px;
+    margin-bottom: 36px;
+}
+
+.hero-img {
+    position: absolute;
+    bottom: -1px;
+    left: 688px;
+}
+
+/* XIZMATLAR part */
+
+.xizmatlar-section h2 {
+    font-family: "Open sans";
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 120px;
+    margin-bottom: 52px;
+}
+
+.xizmatlar-container {
+    margin-bottom: 60px;
+}
+
+.xizmatlar-ul {
+    width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.xizmatlar-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xizmatlar-content {
+    position: relative;
+    margin-left: 44px;
+    top: -15px;
+}
+
+.xizmatlar-img {
+    position: relative;
+}
+
+.xizmatlar-title {
+    font-family: "Open sans";
+    font-size: 20px;
+}
+
+.xizmatlar-text {
+    font-family: "Open sans";   
+    color: rgba(0, 0, 0,80%);
+}
+
+.tabiiy-dorii {
+    position: relative;
+    left: 16px;
+}
+
+.tabiiy-dorii-lar {
+    position: relative;
+    left: 16px;
+}
+
+.xizmatlar-section a {
+    display: block;
+    margin: 0 auto 120px auto;
+    width: 200px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CTA part */
+.cta {
+    background-color: #0EB4C1;
+    height: 253px;
+}
+
+.cta-container {
+    color: white;
+    color: white;
+    font-family: "Open sans";
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-title {
+    margin-top: 64px;
+}
+
+.cta-buttons a{ 
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.ctabtn-one {
+    position: relative;
+    right: 20px;
+}
+
+.ctabtn-one:hover {
+    background-color: white;
+    color:#0EB4C1;
+    transition: 1s ease;
+}
+
+.ctabtn-two {
+    position: relative;
+    left: 20px;
+}
+.ctabtn-two:hover {
+    background-color: white;
+    color:#0EB4C1;
+    transition: 1s ease;
+}
+
+/* FOOTER part */
+
+.footer {
+    background-color: #222222;
+    height: 97.94px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.footer-link {
+    display: flex;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 2px;
+    list-style: none;
+    gap: 32px;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link a:hover {
+    color: #DE2E54;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1180px) {
+    .header-link {
+        display: none;
+    }
+    .header-button {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+    .header-container {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .hero-img {
+        position: static;
+        margin-top: 80px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .hero-section {
+        background-color: #0EB4C1;
+        height: 962px;
+        padding: 20px;
+    }
+
+    .xizmatlar-button {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .xizmatlar-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 250px;
+    }
+
+    .xizmatlar-li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .xizmatlar-ul {
+        width: 250px;
+    }
+
+    .tabiiy-dorii img {
+        position: relative;
+        left: -16px;
+    }
+
+    .tabiiy-dorii h3 {
+        left: -40px;
+        position: relative;
+    }
+
+    .tabiiy-dorii p {
+        left: -36px;
+        width: 250px;
+        position: relative;
+    }
+
+    .xizmatlar-li img {
+        margin-left: -50px;
+    }
+
+    .xizmatlar-li h3 {
+        margin-left: -80px;
+    }
+
+    .xizmatlar-li p {
+        margin-left: -80px;
+        width: 250px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .footer {
+        height: 400px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-content{
+        width: 350px;
+    }
+
+    .cta-title {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .hero-section {
+        background-color: #0EB4C1;
+        height: 1017px;
+        padding: 20px;
+    }
+
+    .cta-buttons a {
+        font-size: 10px;
+        padding: 8px 18px;
+    }
+
+    .hero-text {
+        text-align: justify;
+    }
+
+    .hero-img {
+        margin-top: 110px;
+        display: flex;
+        z-index: 1;
+    }
+
+    .hero-button {
+        margin-top: 80px;
+    }
+
+    .xizmatlar-button {
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-link {
+        margin-top: 40px;
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-text {
+        width: 270px;
+    }
+
+    .hero-button {
+        width: 170px;
+        margin-top: 150px;
+        font-size: 9px;
+    }
+
+    .hero-img {
+        width: 300px;
+        height: 330px;
+        margin-top: 180px;
+    }
+    .hero-section{
+        height: 915px;
+    }
+
+    .xizmatlar-button {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width : 400px) {
+    .header-container {
+        align-items: center;
+        padding: 10px;
+    }
+
+    .xizmatlar-button {
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section {
+        height: 803px;
+    }
+
+    .header-img {
+        width: 140px;
+    }
+
+    .burger-menu {
+        width: 24px;
+        height: 24px;
+    }
+
+    .hero-button {
+        position: relative;
+        margin-top: -220px;
+        width: 170px;
+        font-size: 9px;
+    }
+
+    .hero-content {
+        width: 270px;
+    }
+
+    .hero-img {
+        margin-top: 280px;
+        width: 270px;
+        height: 300px;
+    }
+
+    .hero-text {
+        width: 270px;
+        text-align: center;
+    }
+    .hero-title {
+        font-size: 20px;
+        text-align: start;
+    }
+    .hero-text {
+        text-align: start;
+    }
+
+    .cta-buttons a {
+        position: relative;
+        font-size: 8px;
+        padding: 6px 14px;
+        top: -10px;
+    }
+
+    .cta {
+        height: 200px;
+    }
+
+    .cta-title {
+        font-size: 18px;
+    }
+
+}
